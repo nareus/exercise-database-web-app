@@ -1,0 +1,15 @@
+<Router>
+      <Navbar />
+
+      <Routes>
+        <Route path="/">
+          <Home exercises={exercises} handleSearch={handleSearch} />
+        </Route>
+        <Route path="/search">
+          <Search />
+        </Route>
+        <Route path="/routine">
+          <Routine />
+        </Route>
+      </Routes>
+    </Router>
